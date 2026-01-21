@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARUN AKIN</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">HARUN AKIN</div>
+            
+            <label for="menu-toggle" class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#projeler">Projeler</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Ana İçerik -->
+    <main>
+        <h1>Portfolyoma Geldiniz!</h1>
+        <br>
+        <br>
+        <br>
+
+        <section id="hakkimda">
+            <h2>Hakkımda</h2>
+            <p>
+                <strong>Afyon Kocatepe Üniversitesi</strong> Bilgisayar Programcılığı bölümü mezunuyum. 
+                Okulumu bölümde <strong>2.</strong>, MYO'da <strong>3.</strong> olarak bitirdim.
+            </p>
+            <p>
+                Eğitimim boyunca çeşitli kurslar aldım ve birçok proje geliştirdim. 
+                Özellikle <strong>web tabanlı uygulamalar</strong> konusunda uzmanlaştım.
+            </p>
+            <p>
+                Web geliştirme alanında projelerinize profesyonel destek sağlayabilirim.
+            </p>
+        </section>
+
+        <section id="projeler">
+            <h2>Projelerim</h2>
+            
+            <div class="projects-grid">
+                <!-- *************************** 1.Proje *************************** -->
+                <div class="project-card">
+                    <img src="proje1.webp" alt="Proje 1">
+                    <div class="project-content">
+                        <h3>İş Takip Sistemi (ERP)</h3>
+                        <p>
+                            <strong>Gebze Aslan Bobinaj</strong> firması için geliştirilmiş web tabanlı ekspertiz ve raporlama sistemi. 
+                            Gelen siparişlerin takibi, fiyat tekliflerinin yönetimi ve onay süreçlerini dijitalleştiren kapsamlı bir çözüm.
+                        </p>
+                        <p>
+                            Elektrikli motorlar ve endüstriyel ekipmanlar için detaylı inceleme formları, otomatik fiyat hesaplama, 
+                            resim yükleme ve profesyonel rapor oluşturma özellikleri içermektedir.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- *************************** 2.Proje *************************** -->
+                <div class="project-card">
+                    <img src="proje2.png" alt="Power Direksiyon" class="proje2-image">
+                    <div class="project-content">
+                        <h3>Power Direksiyon Ümraniye</h3>
+                        <p>
+                            Kurumsal web sitesi projesi. Hakkımızda, galeri, hizmetlerimiz ve iletişim bölümlerini içeren 
+                            responsive tasarım. Instagram ve WhatsApp entegrasyonu ile müşteri iletişimi kolaylaştırılmıştır.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Kurumsal Web</span>
+                            <span class="tag">Sosyal Medya</span>
+                        </div>
+                        <a href="https://www.powerdireksiyonumraniye.com" target="_blank" class="project-link">Siteyi Görüntüle</a>
+                    </div>
+                </div>
+
+                <!-- *************************** 3.Proje *************************** -->
+                <div class="project-card">
+                    <img src="proje3.jpeg" alt="Arduino Robot Kol">
+                    <div class="project-content">
+                        <h3>Arduino Robot Kollu Araba Projesi</h3>
+                        <p>
+                            Arduino tabanlı kablosuz kontrollü robot kol sistemi. Bluetooth bağlantısı ile 
+                            telefon üzerinden uzaktan kumanda edilebilmektedir.
+                        </p>
+                        <p>
+                            Joystick kontrolü sayesinde robot kolun hassas hareketleri sağlanmakta ve 
+                            farklı pozisyonlarda çalışabilmektedir.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Arduino</span>
+                            <span class="tag">Bluetooth</span>
+                            <span class="tag">Robot Kol</span>
+                            <span class="tag">IoT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- İletişim Bölümü -->
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            
+            <div class="contact-form-simple">
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Ad Soyad</label>
+                        <input type="text" id="name" name="name" placeholder="Adınız" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-posta</label>
+                        <input type="email" id="email" name="email" placeholder="E-posta adresiniz" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mesaj</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Mesajınız" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Gönder</button>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+<footer>   
+        <div class="footer-bottom">
+            <p>&copy; 2026 Harun Akın. Tüm hakları saklıdır.</p>
+        </div>
+    </div>
+</footer>
+    </main>
+</body>
+</html>
